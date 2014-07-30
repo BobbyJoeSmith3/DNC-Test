@@ -12,3 +12,19 @@ Light Blue: #00aef3
 Navy: #0f2446
 */
 
+/* Creating a style for the banner. I'm using class here instead of ID, since I will be using the same banner across all three pages.*/
+.banner {
+	/* the color of the background for the banner is going to be white, but I need to set it to a color that I can see while adjusting it, since the default background of the page is white. Since the default background color is white, and the Host2016logo.png banner image is transparent, I could just place the image without creaing a white background, but I conceptually like the idea having a div that serves as the complete banner, image, background and all. */
+	background-color: grey; 
+	/* setting the position of the white div I will using as the background of the banner */
+	position: absolute;
+	/* positioning the banner at the top of the page, and having it span the full width of the page */
+	top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    /* setting how tall I want the banner to be */
+    height: 15%;
+    /* making sure the banner background is always the bottom layer */
+    z-index: -1;
+}
