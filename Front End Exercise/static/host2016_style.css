@@ -55,13 +55,13 @@ Navy: #0f2446
 
 /* Sizing and Positioning of background image */
 #background_img	{
-	/* Setting the position of the background image relative to the position of the banner */
-	margin-top: 7.4em;
 	/* setting image the full width of the page */
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
+	/* Determine the height of the background image. Using em to make it responsive. */
+	height: 80%;
     /* Making sure the background image is always the bottom layer */
     z-index: -1;
 }
