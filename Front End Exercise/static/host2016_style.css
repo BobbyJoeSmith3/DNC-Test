@@ -21,25 +21,31 @@ Navy: #0f2446
 	/* The color of the background for the banner is going to be white, but I need to set it to a color that I can see while adjusting it, since the default background of the page is white. Since the default background color is white, and the Host2016logo.png banner image is transparent, I could just place the image without creaing a white background, but I conceptually like the idea having a div that serves as the complete banner, image, background and all. */
 	background-color: grey; 
 	/* Setting the position of the white div serving as the background of the banner relative to the html document */
-	position: absolute;
+	position: static;
 	/* Positioning the banner at the top of the page */
 	top: 0;
     left: 0;
     right: 0;
     /* Setting how tall I want the banner to be. Using 'em' measurement to make it responsive. By not declaring a width, the banner should default to spanning the full width of the page. */
-    height: 8em;
+    height: 7em;
+    width: 100%;
     /* Making sure the banner background is always the bottom layer */
     z-index: -1;
+    /* make subsequent content align closely. */
+    margin-bottom: 0px;
+    /* Center the content inside */
+    padding: 1em;
 }
 
+/* Styling and positioning of HOST 2016 banner image */
 #banner_img	{
-	/*with the banner image we are going to use margin:auto; to center it. Might have to set position to absolute so that it positions itself relative to the background banner div*/
 	/* Centering banner image */
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	/* Centering banner image vertically. Using 'em' measurement to make it responsive */
-	margin-top: 1.2em;
+	margin-top: 1em;
+
 }
 
 
@@ -47,7 +53,18 @@ Navy: #0f2446
 /* SECTION 2: Background */
 /*=======================*/
 
-
+/* Sizing and Positioning of background image */
+#background_img	{
+	/* Setting the position of the background image relative to the position of the banner */
+	margin-top: 7.4em;
+	/* setting image the full width of the page */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+    /* Making sure the background image is always the bottom layer */
+    z-index: -1;
+}
 
 
 
