@@ -16,7 +16,7 @@ Navy: #0f2446
 .banner {
 	/* the color of the background for the banner is going to be white, but I need to set it to a color that I can see while adjusting it, since the default background of the page is white. Since the default background color is white, and the Host2016logo.png banner image is transparent, I could just place the image without creaing a white background, but I conceptually like the idea having a div that serves as the complete banner, image, background and all. */
 	background-color: grey; 
-	/* setting the position of the white div I will using as the background of the banner */
+	/* setting the position of the white div I will using as the background of the banner relative to the html document */
 	position: absolute;
 	/* positioning the banner at the top of the page, and having it span the full width of the page */
 	top: 0;
@@ -28,3 +28,7 @@ Navy: #0f2446
     /* making sure the banner background is always the bottom layer */
     z-index: -1;
 }
+
+/*with the banner image we are going to use margin:auto; to center it. Might have to set position to absolute so that it positions itself relative to the background banner div*/
+
+/* we are going to tell the footer at the bottom to clear: both; assuming we float the elements above*/
