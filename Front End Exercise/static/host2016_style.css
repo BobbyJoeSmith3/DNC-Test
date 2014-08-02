@@ -12,9 +12,13 @@ Light Blue: #00aef3
 Navy: #0f2446
 */
 
+/* Apply backgroundimage.jpg to the body tag and set it as the background to everything. We will then build everything on top of this background. */
 body {
 	background-image: url("/Users/SeestheEnemy/Code/gitrepos/DNC-Test/Front End Exercise/static/backgroundimage.jpg");
 	background-size: cover;
+	/* Since we are making the page liquid, and the background image has a pattern/texture, we need to set a minimum width and height to the background image so that the dimensions stay relatively consistent across platforms. */
+	min-width: 40em;
+	min-height: 40em;
 }
 
 /* SECTION 1: BANNER */
@@ -22,17 +26,17 @@ body {
 
 /* Creating a style for the banner. I'm using class here instead of ID, since I will be using the same banner across all three pages.*/
 .banner {
-	/* The color of the background for the banner is going to be white, but I need to set it to a color that I can see while adjusting it, since the default background of the page is white. Since the default background color is white, and the Host2016logo.png banner image is transparent, I could just place the image without creaing a white background, but I conceptually like the idea having a div that serves as the complete banner, image, background and all. */
-	background-color: grey; 
-	/* Setting the position of the white div serving as the background of the banner relative to the html document */
-	position: static;
-	/* Positioning the banner at the top of the page */
+	/* Since we made the background for the entire page the blue background image, and the Host 2016 logo is transparent, we need to create a white banner that spans the width of the page that we can put the Host2016logo.png on top of. */
+	background-color: white; 
+	/* Setting the position of the white div serving as the background of the banner relative to the parent html tag */
+	position: absolute;
+	/* Positioning the banner at the top of the page and have it span the width of the page */
 	top: 0;
     left: 0;
     right: 0;
-    /* Setting how tall I want the banner to be. Using 'em' measurement to make it responsive. By not declaring a width, the banner should default to spanning the full width of the page. */
+    /* Setting how tall I want the banner to be. Using 'em' measurement to make it responsive.  */
     height: 7em;
-    width: 100%;
+    /*width: 100%; */
     /* Making sure the banner background is always the bottom layer */
     z-index: -1;
     /* make subsequent content align closely. */
@@ -49,26 +53,6 @@ body {
 	margin-right: auto;
 	/* Centering banner image vertically. Using 'em' measurement to make it responsive */
 	margin-top: 1em;
-
-}
-
-
-
-/* SECTION 2: Background */
-/*=======================*/
-
-/* Sizing and Positioning of background image */
-#background_img	{
-	/* setting image the full width of the page */
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
-	/* Determine the height of the background image. Using em to make it responsive. */
-	height: 80%;
-    /* Making sure the background image is always the bottom layer */
-    z-index: -1;
-}
 
 
 
