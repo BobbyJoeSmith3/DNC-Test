@@ -36,18 +36,15 @@ body {
     right: 0;
     /* Setting how tall I want the banner to be. Using 'em' measurement to make it responsive.  */
     height: 7em;
-    /*width: 100%; */
     /* Making sure the banner background is always the bottom layer */
     z-index: -1;
-    /* make subsequent content align closely. */
-    margin-bottom: 0px;
-    /* Center the content inside */
+    /*  Align the content inside, keeping it from extending outside the bounds of the div */
     padding: 1em;
 }
 
 /* Styling and positioning of HOST 2016 banner image */
 #banner_img	{
-	/* Centering banner image */
+	/* Centering banner image horizontally */
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -56,16 +53,16 @@ body {
 
 
 
-/* SECTION 3: Navigation Bar */
+/* SECTION 2: Navigation Bar */
 /*===========================*/
 
 
-/* SECTION 4: Body */
+/* SECTION 3: Body */
 /*=================*/
 
 
 
-/* SECTION 5: Footer */
+/* SECTION 4: Footer */
 /*===================*/
 /* we are going to tell the footer at the bottom to clear: both; assuming we float the elements above*/
 
