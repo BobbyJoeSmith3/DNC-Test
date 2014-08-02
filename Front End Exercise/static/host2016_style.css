@@ -12,6 +12,10 @@ Light Blue: #00aef3
 Navy: #0f2446
 */
 
+/* Import specified font-families from google */
+/* Oswald Regular and Lato Regular */
+@import url(http://fonts.googleapis.com/css?family=Lato|Oswald);
+
 /* Apply backgroundimage.jpg to the body tag and set it as the background to everything. We will then build everything on top of this background. */
 body {
 	background-image: url("/Users/SeestheEnemy/Code/gitrepos/DNC-Test/Front End Exercise/static/backgroundimage.jpg");
@@ -50,12 +54,34 @@ body {
 	margin-right: auto;
 	/* Centering banner image vertically. Using 'em' measurement to make it responsive */
 	margin-top: 1em;
-
+}
 
 
 /* SECTION 2: Navigation Bar */
 /*===========================*/
+/* Create a thin white line that will serve as visual navigation path unifying the nav buttons. */
+.navbar	{
+	/* Set the color to white */
+	background-color: white;
+	/* Set the dimensions */
+	height: .5em;
+	/* Position the navbar */
+	margin-top: 15em;
+}
 
+/* Since I will be using an h3 header tag for all of the Navigation text, and I won't be using h3 for anything else, I'll just apply it directly to the h3 element. */
+h3	{
+	/* Setting the color */
+	color:	white;
+	/* Setting the font and backup font */
+	font-family: 'Oswald', sans-serif;
+	/* Setting font size */
+	font-size: 24pt;
+	/* Setting the Position */ 
+	margin-top: -2em;
+	/* Allowing for navbar text alignment horizontally */
+	display: inline-block;
+}
 
 /* SECTION 3: Body */
 /*=================*/
