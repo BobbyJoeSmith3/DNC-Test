@@ -23,6 +23,9 @@ body {
 	/* Since we are making the page liquid, and the background image has a pattern/texture, we need to set a minimum width and height to the background image so that the dimensions stay relatively consistent across platforms. */
 	min-width: 40em;
 	min-height: 40em;
+	/* predefining margin and padding for the <body> element to avoid visual differences in different browsers. */
+	margin: 0;
+	padding: 0;
 }
 
 /* SECTION 1: BANNER */
@@ -76,11 +79,27 @@ h3	{
 	/* Setting the font and backup font */
 	font-family: 'Oswald', sans-serif;
 	/* Setting font size */
-	font-size: 24pt;
+	font-size: 18pt;
 	/* Setting the Position */ 
-	margin-top: -2em;
+	margin-top: -3em;
 	/* Allowing for navbar text alignment horizontally */
 	display: inline-block;
+	position: absolute;
+}
+
+/* position the first nav point on the navigation bar */
+#navpoint1	{	
+	margin-left: 15%;
+}
+
+/* position the second nav point on the navigation bar*/
+#navpoint2	{	
+	margin-left: 40%;
+}
+
+/* position the third nav point on the navigation bar*/
+#navpoint3	{	
+	margin-left: 65%;
 }
 
 /* SECTION 3: Body */
