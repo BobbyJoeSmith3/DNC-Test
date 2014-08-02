@@ -78,7 +78,7 @@ h3	{
 	color:	white;
 	/* Setting the font and backup font */
 	font-family: 'Oswald', sans-serif;
-	/* Setting font size */
+	/* Setting font size - used a smaller font than recommended by the designer to make the proportionality between the navpoint headers and the Host2016 logo closer to the mockup */
 	font-size: 18pt;
 	/* Setting the Position */ 
 	margin-top: -3em;
@@ -90,6 +90,24 @@ h3	{
 /* position the first nav point on the navigation bar */
 #navpoint1	{	
 	margin-left: 15%;
+}
+
+/* Style and position the first nav point */
+#circle1	{
+	background-color: white;
+	/* Setting the dimensions */
+	height: 35px;
+	width: 35px;
+	/* Make the square div circular */
+	border-radius: 50%;
+	/* Position the circles so that they can overlap the navbar */
+	position: absolute;
+	margin-top: -1.4em;
+	/* Align navpoint with navpoint header. Since I'm using percentage and the points are smaller than the width of the text headers, they wont always be centered directly with the text. But the user should be able to tell which navpoint goes with which header */
+	margin-left: 18%;
+	/* Allow the circles to be inline with eachother */
+	display: inline-block;
+
 }
 
 /* position the second nav point on the navigation bar*/
