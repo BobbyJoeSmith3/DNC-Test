@@ -12,6 +12,10 @@ Light Blue: #00aef3
 Navy: #0f2446
 */
 
+body {
+	background-image: url("/Users/SeestheEnemy/Code/gitrepos/DNC-Test/Front End Exercise/static/backgroundimage.jpg");
+	background-size: cover;
+}
 
 /* SECTION 1: BANNER */
 /*===================*/
