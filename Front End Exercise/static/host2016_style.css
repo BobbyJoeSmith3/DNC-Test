@@ -139,8 +139,19 @@ h3	{
 	margin-left: 45%;
 	/* Allow the circles to be inline with eachother */
 	display: inline-block;
-
 }
+
+
+/* Position the logo over the second navpoint */
+#navpoint_marker2	{
+	position: absolute;
+	margin-top: -1.175em;
+	margin-left: 45.2%;
+	/* re-size the image proportionally */
+	width:	30px;
+	height: auto;
+}
+
 
 /* position the third nav point on the navigation bar*/
 #navpoint3	{	
@@ -163,14 +174,28 @@ h3	{
 	margin-left: 75%;
 	/* Allow the circles to be inline with eachother */
 	display: inline-block;
+}
 
+/* Position the logo over the second navpoint */
+#navpoint_marker3	{
+	position: absolute;
+	margin-top: -1.175em;
+	margin-left: 75.2%;
+	/* re-size the image proportionally */
+	width:	30px;
+	height: auto;
 }
 
 
 /* SECTION 3: Body */
 /*=================*/
-
-
+/* Size, position and style of the white canvas for the text 
+.canvas	{
+	background-color: white;
+	height: 40em;
+	width: 90%;
+}
+*/
 
 /* SECTION 4: Footer */
 /*===================*/
