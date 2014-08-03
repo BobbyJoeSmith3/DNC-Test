@@ -79,7 +79,7 @@ h3	{
 	/* Setting the font and backup font */
 	font-family: 'Oswald', sans-serif;
 	/* Setting font size - used a smaller font than recommended by the designer to make the proportionality between the navpoint headers and the Host2016 logo closer to the mockup */
-	font-size: 18pt;
+	font-size: 1.5em;
 	/* Setting the Position */ 
 	margin-top: -3em;
 	/* Allowing for navbar text alignment horizontally */
@@ -201,6 +201,24 @@ h3	{
 	/* Positioning horizontally */
 	margin-left: auto;
 	margin-right: auto;
+	/* Padding for the content */
+	padding: 10px;
+}
+
+/* Style and positioning of section header */
+h1 	{
+	/* font */
+	font-family: "Oswald", sans-serif;
+	/* light blue */
+	color: #00aef3;
+	/* font size */
+	font-size: 2.5em;
+	/* Setting positioning to the left of the download RFP image */
+	float: left;
+	/* Positioning Horizontally */
+	margin-left: 1em;
+	/* Allow for elements to be next to the text */
+	display: inline-block;
 }
 
 
