@@ -284,4 +284,28 @@ p 	{
 /* SECTION 4: Footer */
 /*===================*/
 /* we are going to tell the footer at the bottom to clear: both; assuming we float the elements above*/
+#footer {
+	/* Navy background */
+	background-color: #0f2446;
+	/* Setting the Dimensions */
+	height: 7em;
+	/* Setting the position of the navy div similar to the banner above */
+	position: absolute;
+	/* Positioning the banner at the top of the page and have it span the width of the page */
+	bottom: 0;
+    left: 0;
+    right: 0;
+    /* Align the text */
+    text-align: center;
+}
+
+/* Style and positioning of footer text */
+#footertxt 	{
+	/* Styling */
+	color: white;
+	font-family: "Oswald", sans-serif;
+	font-size: 1.5em;
+	/* Vertical alignment */
+	margin-top: 1.5em;
+}
 
