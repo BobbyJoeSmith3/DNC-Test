@@ -189,13 +189,20 @@ h3	{
 
 /* SECTION 3: Body */
 /*=================*/
-/* Size, position and style of the white canvas for the text 
-.canvas	{
+/* Size, position and style of the white canvas for the text */
+#canvas	{
+	/* Setting color */
 	background-color: white;
-	height: 40em;
+	/* Setting dimension */
+	height: 60%;
 	width: 90%;
+	/* Positioning verticially */
+	margin-top: 40px;
+	/* Positioning horizontally */
+	margin-left: auto;
+	margin-right: auto;
 }
-*/
+
 
 /* SECTION 4: Footer */
 /*===================*/
