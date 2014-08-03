@@ -115,9 +115,46 @@ h3	{
 	margin-left: 40%;
 }
 
+/* Style and position the second nav point */
+#circle2	{
+	background-color: white;
+	/* Setting the dimensions */
+	height: 35px;
+	width: 35px;
+	/* Make the square div circular */
+	border-radius: 50%;
+	/* Position the circles so that they can overlap the navbar */
+	position: absolute;
+	margin-top: -1.4em;
+	/* Align navpoint with navpoint header. Since I'm using percentage and the points are smaller than the width of the text headers, they wont always be centered directly with the text. But the user should be able to tell which navpoint goes with which header */
+	margin-left: 45%;
+	/* Allow the circles to be inline with eachother */
+	display: inline-block;
+
+}
+
 /* position the third nav point on the navigation bar*/
 #navpoint3	{	
 	margin-left: 65%;
+}
+
+
+/* Style and position the third nav point */
+#circle3	{
+	background-color: white;
+	/* Setting the dimensions */
+	height: 35px;
+	width: 35px;
+	/* Make the square div circular */
+	border-radius: 50%;
+	/* Position the circles so that they can overlap the navbar */
+	position: absolute;
+	margin-top: -1.4em;
+	/* Align navpoint with navpoint header. Since I'm using percentage and the points are smaller than the width of the text headers, they wont always be centered directly with the text. But the user should be able to tell which navpoint goes with which header */
+	margin-left: 75%;
+	/* Allow the circles to be inline with eachother */
+	display: inline-block;
+
 }
 
 /* SECTION 3: Body */
