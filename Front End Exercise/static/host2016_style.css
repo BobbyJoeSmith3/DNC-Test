@@ -107,7 +107,16 @@ h3	{
 	margin-left: 18%;
 	/* Allow the circles to be inline with eachother */
 	display: inline-block;
+}
 
+/* Position the logo over the first navpoint */
+#navpoint_marker1	{
+	position: absolute;
+	margin-top: -1.175em;
+	margin-left: 18.2%;
+	/* re-size the image proportionally */
+	width:	30px;
+	height: auto;
 }
 
 /* position the second nav point on the navigation bar*/
@@ -156,6 +165,7 @@ h3	{
 	display: inline-block;
 
 }
+
 
 /* SECTION 3: Body */
 /*=================*/
