@@ -72,23 +72,20 @@ body {
 	margin-top: 15em;
 }
 
-/* Since I will be using an h3 header tag for all of the Navigation text, and I won't be using h3 for anything else, I'll just apply it directly to the h3 element. */
-h3	{
+/* position the first nav point on the navigation bar */
+#navpoint1	{
 	/* Setting the color */
 	color:	white;
 	/* Setting the font and backup font */
+	font-family: "Oswald", sans-serif;
 	/* I first set the font size to the specified pixel size, then eyeballed an approximate equivalent size in em's in order to make the text responsive */
 	font-size: 1.5em;
 	/* Setting the Position */ 
 	margin-top: -3em;
+	margin-left: 15%;
 	/* Allowing for navbar text alignment horizontally */
 	display: inline-block;
-	position: absolute;
-}
-
-/* position the first nav point on the navigation bar */
-#navpoint1	{	
-	margin-left: 15%;
+	position: absolute;	
 }
 
 /* Style and position the first nav point */
@@ -120,7 +117,19 @@ h3	{
 
 /* position the second nav point on the navigation bar*/
 #navpoint2	{	
+	/* Setting the color */
+	color:	white;
+	/* Setting the font and backup font */
+	font-family: "Oswald", sans-serif;
+	/* I first set the font size to the specified pixel size, then eyeballed an approximate equivalent size in em's in order to make the text responsive */
+	font-size: 1.5em;
+	/* Setting the Position */ 
+	margin-top: -3em;
 	margin-left: 40%;
+	/* Allowing for navbar text alignment horizontally */
+	display: inline-block;
+	position: absolute;
+	
 }
 
 /* Style and position the second nav point */
@@ -154,7 +163,19 @@ h3	{
 
 /* position the third nav point on the navigation bar*/
 #navpoint3	{	
+	/* Setting the color */
+	color:	white;
+	/* Setting the font and backup font */
+	font-family: "Oswald", sans-serif;
+	/* I first set the font size to the specified pixel size, then eyeballed an approximate equivalent size in em's in order to make the text responsive */
+	font-size: 1.5em;
+	/* Setting the Position */ 
+	margin-top: -3em;
 	margin-left: 65%;
+	/* Allowing for navbar text alignment horizontally */
+	display: inline-block;
+	position: absolute;
+	
 }
 
 
@@ -219,6 +240,7 @@ h1 	{
 	/* Allow for elements to be next to the text */
 	display: inline-block;
 	border: 1px solid green;
+	margin-bottom: 0;
 }
 
 p 	{
@@ -237,6 +259,28 @@ p 	{
 	border: 1px solid green;
 }
 
+/* Positioning and sizing the Download RFP image */
+#dl_rfp	{
+	/* Adjusting size */
+	width: 12em;
+	height: auto;
+	/* Positioning */
+	float: right;
+	margin-right: 4em;
+
+}
+
+/* Positioning and styling for the text Download RFP */
+#dl_rfp_txt	{
+	font-family: "Oswald", sans-serif;
+	/* I first set the font size to the specified pixel size, then eyeballed an approximate equivalent size in em's in order to make the text responsive */
+	font-size: 1.5em;
+	/* Positioning horiztonally in alignment with Download RFP image */
+	float: right;
+	margin-right: 4em;
+	/* Center justify text */
+	text-align: center;
+}
 /* SECTION 4: Footer */
 /*===================*/
 /* we are going to tell the footer at the bottom to clear: both; assuming we float the elements above*/
